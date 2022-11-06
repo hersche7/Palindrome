@@ -1,0 +1,10 @@
+word1=input('Enter character: ')
+word2=word1[::-1]
+
+print("Reverse is: ",word2)
+print()
+
+if word1==word2:
+    print('The string',word2,'is palindrome')
+else :
+    print('string is not palindrome')
